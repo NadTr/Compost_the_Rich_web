@@ -128,7 +128,8 @@ header p {
 }
 
 #pitch h1,
-#pitch h2 {
+#pitch h2,
+#credits h2 {
     font-family: 'Bangers', system-ui;
     color: var(--orange-bright);
     text-align: center;
@@ -320,6 +321,6 @@ header p {
     animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
-#pitch {
-    animation: fadeInUp 0.8s ease-out 0.4s both;
+#credits{
+    margin: 1rem 5rem;
 }
