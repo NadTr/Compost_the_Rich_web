@@ -149,7 +149,7 @@ header p {
 
 
 /* Carousel */
- #carouselReward {
+#carouselReward {
     margin: 3rem auto;
     max-width: 900px;
     border-radius: 15px;
@@ -165,11 +165,11 @@ header p {
 }
 
 .carousel-item {
-     background: linear-gradient(135deg, var(--purple-dark) 0%, var(--blue-dark) 100%);
+    background: linear-gradient(135deg, var(--purple-dark) 0%, var(--blue-dark) 100%);
     color: var(--beige-light);
     padding: 3rem 2rem;
     min-height: 350px;
-    border: 2px solid var(--green-dark); 
+    border: 2px solid var(--green-dark);
     text-align: center;
 }
 
@@ -321,6 +321,19 @@ header p {
     animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
-#credits{
+#credits {
     margin: 1rem 5rem;
+
+    .container {
+        padding-top: 1rem;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 2rem;
+
+        h3 {
+            text-align: center;
+        }
+    }
 }
